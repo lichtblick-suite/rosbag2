@@ -533,34 +533,34 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.35.0.tgz#b7569632b0b788a0ca0e438235154e45d42813a7"
   integrity sha512-JXdzbRiWclLVoD8sNUjR443VVlYqiYmDVT6rGUEIEHU5YJW0gaVZwV2xgM7D4arkvASqD0IlLUVjHiFuxaftRw==
 
-"@foxglove/message-definition@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@foxglove/message-definition/-/message-definition-0.2.0.tgz#e31922e58e57d224717bcfbd20d3cbaad709dc6b"
-  integrity sha512-IQHIGCvBZR8GIua9nEpS+hsMF3gm1bfbrrnjG0rgtcFBWiNuKbzx4vIP8OIwDC+8wtwcFdfJhf4Vp5TPFiUUcQ==
+"@foxglove/message-definition@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@foxglove/message-definition/-/message-definition-0.5.0.tgz#d95385da762029b5928f19c6b6e29a80441e7df1"
+  integrity sha512-B/2GvWn4wRSsPDywcmy6uNXgAfZRhiOAnmy3qAaS6MHVqiHQqs/RoDsoW6Gw9sXSweJpeH5qAqAihvm1pR9Thg==
 
-"@foxglove/rosmsg-msgs-common@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@foxglove/rosmsg-msgs-common/-/rosmsg-msgs-common-3.0.0.tgz#d5f09b9e1feb43eb21aedc12ab23bc47787558e4"
-  integrity sha512-MSruqgOtT+PrQO2wqprvB0dA7ZbPKM9AqDcdOQFo/e8RIjXfgMsio64kmYHYXF8iHcutqoAaTHxi74XMwRzwzg==
+"@foxglove/rosmsg-msgs-common@^3.2.2":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@foxglove/rosmsg-msgs-common/-/rosmsg-msgs-common-3.2.3.tgz#d3e90a36ffd3c9959a3059f2947e6f6bc29bc31b"
+  integrity sha512-i+pdyOAGb7DHDaIRON+zGy2izW3kQewRImOcHGzGWib3dOaTvoI5RoapOykDQyND9L9E8QbLntCSSAKHBBfOsg==
   dependencies:
-    "@foxglove/message-definition" "^0.2.0"
-    "@foxglove/rosmsg" "^4.0.0"
+    "@foxglove/message-definition" "0.5.0"
+    "@foxglove/rosmsg" "^5.0.5"
 
-"@foxglove/rosmsg@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@foxglove/rosmsg/-/rosmsg-4.0.0.tgz#b0f1b57db4bfe2ea00f1d5904caeedb2d13bccb0"
-  integrity sha512-MuTAcA4U+wzlhUIHYgfBrjTDE/kzukWmhyI8suKgmjlnVjrpyzDNiMYsV5lU0KTW6noGKtqu46ZtxWSEWsOsEg==
+"@foxglove/rosmsg@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@foxglove/rosmsg/-/rosmsg-5.0.5.tgz#f3b97b162e98022e7f6c19cb70ad66f6f04c0025"
+  integrity sha512-+qY6xW+4HdbPI3ItAlFFMjXgAiplXyRsv+kqdBk8OcWGH38BmEd7s6v/VnCkbYovAoB5rfR5giuKfmPRNzwbrA==
   dependencies:
-    "@foxglove/message-definition" "^0.2.0"
+    "@foxglove/message-definition" "0.5.0"
     md5-typescript "^1.0.5"
 
-"@foxglove/schemas@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@foxglove/schemas/-/schemas-1.3.1.tgz#593864face787a4366f0bc363d5ff529e6fd02b4"
-  integrity sha512-YheGkK9eHCeSLCcwjiKwHjWBqwaVlp7opJ+QogMGVqXsSoBs0RrOLlAGVDeL605X2lACClB5gW3FmnllC5vykg==
+"@foxglove/schemas@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@foxglove/schemas/-/schemas-1.9.0.tgz#addc3df7368668f76d3ee1a32288270f3766e754"
+  integrity sha512-1WS3dHiTvPrPulwMs93LGW9QMbX04w4OJ08cQFD/o9IO3vG8hPWGhoNBlJK+NeMIP/usubHmXAmMWNN8+oG6TA==
   dependencies:
-    "@foxglove/rosmsg-msgs-common" "^3.0.0"
-    tslib "^2.5.0"
+    "@foxglove/rosmsg-msgs-common" "^3.2.2"
+    tslib "^2"
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
@@ -3919,10 +3919,10 @@ tslib@^1.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.0.tgz#42bfed86f5787aeb41d031866c8f402429e0fddf"
-  integrity sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==
+tslib@^2:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tsutils@^3, tsutils@^3.21.0:
   version "3.21.0"
