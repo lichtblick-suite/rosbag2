@@ -3,7 +3,6 @@ name: Publish to NPM
 on:
   release:
     types: [published]
-  workflow_dispatch: # Allow manual triggering for debugging purposes, should be removed after
 
 jobs:
   build:
@@ -25,4 +24,3 @@ jobs:
       - run: corepack enable
       - run: yarn install --immutable
       - run: npm publish --access public --provenance
-
