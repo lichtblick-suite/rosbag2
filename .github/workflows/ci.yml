@@ -25,7 +25,3 @@ jobs:
       - run: yarn run build
       - run: yarn run lint:ci
       - run: yarn run test
-
-      - name: Publish to NPM
-        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
-        run: yarn publish --access public --provenance
