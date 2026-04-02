@@ -1,6 +1,6 @@
 {
   "name": "@lichtblick/rosbag2",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ROS2 (Robot Operating System) bag reader and writer abstract implementation",
   "license": "MIT",
   "keywords": [
